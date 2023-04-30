@@ -3,6 +3,7 @@ package common_method;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
 
+//This is common method for get command.
 public class Get_common_method {
 	
 	public static int responseStatusCode_Extractor(String baseURI, String resource)
